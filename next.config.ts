@@ -1,9 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  turbopack: {
-    root: "C:/Users/Admin/Desktop/proyecto_figma/mi-proyecto",
-  },
   images: {
     remotePatterns: [
       {
