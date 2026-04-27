@@ -5,7 +5,7 @@ type PhoneFrameProps = {
 export function PhoneFrame({ children }: PhoneFrameProps) {
   return (
     <main className="flex min-h-screen items-center justify-center bg-[radial-gradient(circle_at_top,_#f4d2cd_0%,_#f7efed_40%,_#f8f2f0_100%)] px-0 py-0 md:px-6 md:py-8">
-      <div className="relative w-full overflow-hidden bg-white md:max-w-[390px] md:rounded-[34px] md:shadow-[0_28px_80px_rgba(81,36,32,0.18)]">
+      <div className="relative min-h-screen w-full max-w-[390px] overflow-hidden rounded-3xl bg-gradient-to-b from-[#e7c2b8] to-[#f5e6e1] md:min-h-0 md:shadow-[0_28px_80px_rgba(81,36,32,0.18)]">
         {children}
       </div>
     </main>

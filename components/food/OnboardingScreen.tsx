@@ -38,18 +38,18 @@ export function OnboardingScreen({ onGetStarted }: OnboardingScreenProps) {
           />
         </div>
 
-        <div className="absolute bottom-32 left-6 z-10 h-28 w-28 overflow-hidden rounded-full shadow-md">
+        <div className="absolute bottom-32 left-6 z-10 h-24 w-24 overflow-hidden rounded-full shadow-md">
           <Image
-            src="https://source.unsplash.com/280x280/?sandwich,food"
+            src="https://source.unsplash.com/240x240/?sandwich,food"
             alt="Sandwich"
             fill
             className="object-cover rounded-full"
           />
         </div>
 
-        <div className="absolute bottom-32 right-6 z-10 h-28 w-28 overflow-hidden rounded-full shadow-md">
+        <div className="absolute bottom-32 right-6 z-10 h-24 w-24 overflow-hidden rounded-full shadow-md">
           <Image
-            src="https://source.unsplash.com/280x280/?fried,food"
+            src="https://source.unsplash.com/240x240/?fried-food,snack"
             alt="Fried food"
             fill
             className="object-cover rounded-full"

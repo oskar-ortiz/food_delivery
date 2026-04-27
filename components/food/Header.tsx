@@ -4,8 +4,8 @@ import { Icon } from "@/components/ui/Icon";
 export function Header() {
   return (
     <header className="flex items-center justify-between">
-      <div className="flex items-center gap-2">
-        <div className="flex items-center gap-[6px] text-[18px] font-semibold tracking-[-0.03em] text-black">
+      <div className="flex items-center gap-2 text-black">
+        <div className="flex items-center gap-2 text-[18px] font-medium tracking-[-0.02em]">
           <Icon name="pin" className="h-5 w-5" />
           <span>Canada</span>
           <Icon name="chevron-down" className="h-5 w-5" />
@@ -13,9 +13,9 @@ export function Header() {
       </div>
 
       <div className="flex items-center gap-3">
-        <div className="h-10 w-10 overflow-hidden rounded-full border border-white shadow-md">
+        <div className="h-10 w-10 overflow-hidden rounded-full border-2 border-white shadow-sm">
           <Image
-            src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=120&h=120&fit=crop&crop=faces"
+            src="https://source.unsplash.com/QePKR_mL9oo/120x120"
             alt="Profile avatar"
             width={40}
             height={40}
@@ -26,9 +26,9 @@ export function Header() {
         <button
           type="button"
           aria-label="Open menu"
-          className="flex h-[56px] w-[56px] items-center justify-center rounded-full bg-white/65 shadow-[0_14px_30px_rgba(104,54,48,0.12)] backdrop-blur-sm transition active:scale-95"
+          className="flex h-10 w-10 items-center justify-center rounded-full bg-white/70 transition active:scale-95"
         >
-          <Icon name="menu" className="h-7 w-7" />
+          <Icon name="menu" className="h-6 w-6" />
         </button>
       </div>
     </header>

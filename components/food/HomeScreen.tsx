@@ -21,11 +21,11 @@ export function HomeScreen() {
   }, [activeCategory, search]);
 
   return (
-    <section className="app-gradient relative min-h-screen overflow-hidden pb-[112px] md:min-h-[844px]">
-      <div className="px-6 pt-8">
+    <section className="relative mx-auto min-h-screen max-w-[390px] overflow-hidden bg-gradient-to-b from-[#e7c2b8] to-[#f5e6e1] px-5 pb-6 pt-6">
+      <div>
         <Header />
 
-        <h1 className="text-soft-shadow mt-[54px] max-w-[332px] text-[35px] font-extrabold leading-[1.13] tracking-[-0.045em] text-black">
+        <h1 className="mt-6 max-w-[332px] text-3xl font-extrabold leading-tight text-black drop-shadow-md">
           Ready to order your
           <br />
           favourite food ?
@@ -40,15 +40,15 @@ export function HomeScreen() {
         onSelect={setActiveCategory}
       />
 
-      <div className="px-6 pt-[38px]">
+      <div className="pt-6">
         <div className="flex items-center justify-between">
           <h2 className="text-[20px] font-bold tracking-[-0.03em] text-black">Popular Food</h2>
-          <button type="button" className="text-[15px] font-medium text-black">
+          <button type="button" className="text-sm font-medium text-black">
             See all
           </button>
         </div>
 
-        <div className="scrollbar-hidden mt-8 flex gap-4 overflow-x-auto pb-6">
+        <div className="scrollbar-hidden mt-5 flex gap-4 overflow-x-auto pb-24">
           {filteredProducts.map((product) => (
             <FoodCard key={product.id} product={product} />
           ))}
