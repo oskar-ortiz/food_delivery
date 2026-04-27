@@ -7,7 +7,7 @@ export function Header() {
       <div className="flex items-center gap-[50px]">
         <div className="h-[60px] w-[60px] overflow-hidden rounded-full border-[3px] border-white/80 shadow-[0_12px_24px_rgba(104,54,48,0.12)]">
           <Image
-            src="https://randomuser.me/api/portraits/men/32.jpg"
+            src="https://source.unsplash.com/QePKR_mL9oo/120x120"
             alt="Profile avatar"
             width={60}
             height={60}
