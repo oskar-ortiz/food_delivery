@@ -8,12 +8,12 @@ export function OnboardingScreen({ onGetStarted }: OnboardingScreenProps) {
   return (
     <section className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-[#f5e6e1] px-6 py-8">
       <div className="relative mx-auto flex min-h-screen w-full max-w-[390px] flex-col items-center justify-center overflow-hidden">
-        <div className="absolute left-10 top-10 z-0 h-40 w-40 rounded-full bg-white/40 blur-sm" />
-        <div className="absolute bottom-10 right-10 z-0 h-52 w-52 rounded-full bg-white/30 blur-sm" />
+        <div className="absolute left-10 top-10 z-0 h-72 w-72 rounded-full bg-white/30" />
+        <div className="absolute bottom-10 right-10 z-0 h-56 w-56 rounded-full bg-white/30" />
 
         <div className="absolute left-6 top-16 z-10 h-24 w-24 overflow-hidden rounded-full shadow-md">
           <Image
-            src="https://source.unsplash.com/featured/?dumplings,food"
+            src="https://source.unsplash.com/240x240/?dumplings,food"
             alt="Dumplings"
             fill
             className="object-cover rounded-full"
@@ -22,35 +22,35 @@ export function OnboardingScreen({ onGetStarted }: OnboardingScreenProps) {
 
         <div className="absolute right-6 top-20 z-10 h-24 w-24 overflow-hidden rounded-full shadow-md">
           <Image
-            src="https://source.unsplash.com/featured/?biryani,food"
+            src="https://source.unsplash.com/240x240/?biryani,food"
             alt="Biryani"
             fill
             className="object-cover rounded-full"
           />
         </div>
 
-        <div className="absolute bottom-24 left-8 z-10 h-28 w-28 overflow-hidden rounded-full shadow-md">
+        <div className="absolute left-4 top-1/2 z-10 h-24 w-24 -translate-y-1/2 overflow-hidden rounded-full shadow-md">
           <Image
-            src="https://source.unsplash.com/featured/?burger,food"
+            src="https://source.unsplash.com/240x240/?burger,food"
             alt="Burger"
             fill
             className="object-cover rounded-full"
           />
         </div>
 
-        <div className="absolute bottom-28 right-8 z-10 h-24 w-24 overflow-hidden rounded-full shadow-md">
+        <div className="absolute bottom-32 left-6 z-10 h-28 w-28 overflow-hidden rounded-full shadow-md">
           <Image
-            src="https://source.unsplash.com/featured/?fried-food,snack"
-            alt="Snack"
+            src="https://source.unsplash.com/280x280/?sandwich,food"
+            alt="Sandwich"
             fill
             className="object-cover rounded-full"
           />
         </div>
 
-        <div className="absolute left-2 top-1/3 z-10 h-24 w-24 overflow-hidden rounded-full shadow-md">
+        <div className="absolute bottom-32 right-6 z-10 h-28 w-28 overflow-hidden rounded-full shadow-md">
           <Image
-            src="https://source.unsplash.com/featured/?soup,food"
-            alt="Soup"
+            src="https://source.unsplash.com/280x280/?fried,food"
+            alt="Fried food"
             fill
             className="object-cover rounded-full"
           />
@@ -58,7 +58,7 @@ export function OnboardingScreen({ onGetStarted }: OnboardingScreenProps) {
 
         <div className="relative z-20 h-40 w-40 overflow-hidden rounded-full shadow-lg">
           <Image
-            src="https://source.unsplash.com/featured/?pizza,food"
+            src="https://source.unsplash.com/400x400/?pizza,food"
             alt="Featured pizza"
             fill
             priority
